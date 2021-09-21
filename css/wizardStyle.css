@@ -360,3 +360,29 @@ main a.text.text-links:hover {
 .actions.clearfix {
   margin-top: 20px;
 }
+@media (max-width: 768px) {
+	.statusSelect {
+    margin-top: 41px;
+  }
+  .wrapper {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem 1.5rem 1em;
+  }
+  .smWidth {
+    max-width: 80%;
+}
+}
+@media (max-width: 426px) {
+	.statusSelect {
+    margin-top: 5px;
+  }.mdWidth {
+    max-width: 85%;
+}.smWidth {
+  max-width: 85%;
+}
+.wizard {
+  height: auto;
+  padding: 60px 0 0;
+}
+}
