@@ -1,0 +1,353 @@
+<!DOCTYPE >
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Directing Template">
+    <meta name="keywords" content="Directing, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matrix ERP-Repair status</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/all.css" type="text/css">
+
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+
+    <link rel="stylesheet" href="css/wizardStyle.css">
+
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu">
+        <div class="offcanvas__logo">
+            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__widget">
+            <a href="#" class="primary-btn">Login</a>
+        </div>
+        <nav class="header__menu">
+            <ul class="mobile-menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Pricing.html">Pricing</a></li>
+                <li class="active"><a href="./RepairStatus.html">Track repair status</a></li>
+            </ul>
+        </nav>
+        <div class="offcanvas__social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__logo">
+                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                        <div class="header__top__widget">
+                            <a href="./Login.html" class="primary-btn">Login</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas__open">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </div>
+        <div class="header__nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-9">
+                        <nav class="header__menu">
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./Pricing.html">Pricing</a></li>
+                                <li class="active"><a href="./RepairStatus.html">Track repair status</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+    <main class="main">
+        <div class="container">
+            <section class="wrapper mdWidth">
+                <div class="heading">
+                    <h3>Track repair status</h3>
+
+                </div>
+                <form name="login" class="form">
+                    <div>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 statusSelect">
+                                <label for="">
+                                    Select number type
+                                </label>
+                                <div class="form-holder">
+                                    <!-- <i class="zmdi zmdi-account-o"></i> -->
+                                    <select name="search_type" class="form-control">
+                                        <option value="job_sheet_no" class="option">repair paper number</option>
+                                        <option value="invoice_no" class="option">invoice number</option>
+                                        <option value="mobile_num" class="option">mobile</option>
+                                    </select>
+                                    <!-- <i class="zmdi zmdi-chevron-down"></i> -->
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <label for="">
+                                    Repair paper number / invoice number / mobile phone </label>
+                                <div class="form-holder">
+                                    <!-- <i class="zmdi zmdi-pin"></i> -->
+                                    <i class="fas fa-sort-numeric-up-alt"></i>
+                                    <input type="text" class="form-control" name="search_number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 ">
+                                <label for="">
+                                    Password
+                                </label>
+                                <div class="form-holder password">
+                                    <i class="zmdi zmdi-lock"></i>
+                                    <input type="password" class="form-control" name="serial_no" id="repair_serial_no">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row footerLoginDiv">
+                        <div class="col-12">
+                            <div class="input-control btnsCenter actions">
+                                <input type="button" name="submit" class="primary-btn btn" value="Search"  onclick="showStatus()">
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+
+
+                <div id="statusInfo"  style="display:none;" class="statusInfo" > 
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="info">
+                                <label class="title">Brand:</label>
+                                <span class="content">Apple</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="info">
+                                <label class="title">Device:  </label>
+                                <span class="content">Mobile</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="info">
+                                <label class="title">Device Model:</label>
+                                <span class="content">Apple iPhone X</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="info">
+                                <label class="title">Password:  </label>
+                                <span class="content">00011</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="info">
+                                <label class="title">Maintenance status:</label>
+                                <span class="content">In progress</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="info">
+                                <label class="title">Expected delivery date:  </label>
+                                <span class="content"></span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="info">
+                                <label class="title">Status updates:</label>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <table class="table table-bordered">
+                            <thead class="table-dark">
+                                      <tr>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Measures</th>
+                                        <th scope="col">By</th>
+                                        <th scope="col">Notes</th>
+
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Mon, Sep 13, 2021 1:50 PM	</td>
+                                        <td>Status changed to Repair in progress	</td>
+                                        <td>@superadmin</td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                          </table>
+                    </div>
+                </div>
+        
+            </section>
+        </div>
+       
+    </main>
+    <!-- Footer Section Begin -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-4 col-sm-6">
+                    <div class="footer__about">
+                        <h3 class="matrixFooter3">Matrix ERP</h3>
+                        <p class="footerPara">We are here to help you when you need us!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col col-md-4 col-sm-6">
+                    <div class="footer__widget">
+                        <h5>Matrix</h5>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./Pricing.html">Pricing</a></li>
+                            <li><a href="./RepairStatus.html">Track repair status</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-md-4 col-sm-6">
+                    <div class="footer__widget">
+                        <h5>Contact Us</h5>
+                        <ul class="footer-address">
+                            <li>
+                                <a href="tel:0114388031">
+                                    <i class="fa fa-phone-alt"></i> (01) 14388031
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="tel:0536725842"><i class="fa fa-mobile-alt"></i> (05) 36725842</a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@matrix-soul.com"> <i class="fa fa-envelope"></i>
+                                    info@matrix-soul.com</a>
+                            </li>
+                            <!-- <li><i class="fa fa-location-arrow"></i> Riyadh - Al Masanea District</li> -->
+                            <!-- <li><i class="fa fa-map"></i> Kingdom Saudi Arabia </li> -->
+                            <!-- <li><i class="fa fa-map-marked-alt"></i> Riyadh - Al Masanea District</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <div class="footer__copyright__text">
+                            <p>Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved |
+                                Matrix-ERP
+                            </p>
+                        </div>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="footer__copyright__social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.barfiller.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function showStatus() {
+   document.getElementById('statusInfo').style.display = "block";
+}
+
+
+$(document).ready(function() {
+    debugger
+  $('.form .row input').on('keyup', function() {
+    let empty = false;
+
+    $('.form .row input').each(function() {
+      empty = $(this).val().length == 0;
+    });
+
+    if (empty)
+      $('.actions input').attr('disabled', 'disabled');
+    else
+      $('.actions input').attr('disabled', false);
+  });
+});
+    </script>
+</body>
+
+</html>
