@@ -257,7 +257,8 @@ ol {
 }
 
 .header__top__widget .primary-btn {
-	display: inline-block;
+    display: inline-block;
+    margin: 0 5px;
 }
 
 .header__nav {
@@ -2685,7 +2686,6 @@ ul.list {
 
   }
   h3.matrixFooter3{
-		font-family: "Poppins-SemiBold";
 		font-size: 32px;
 		color: #d00000;
 		text-transform: capitalize;
@@ -2943,6 +2943,7 @@ ul.list {
 	}
 	.offcanvas__widget .primary-btn {
 		display: inline-block;
+		margin-bottom: 15px;
 	}
 	.offcanvas__social a {
 		display: inline-block;
@@ -3017,6 +3018,9 @@ ul.list {
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.primary-btn {
+		font-size: 14px;
+		padding: 10px 20px 10px;}
 	.hero__text h2 {
 		font-size: 40px;
 		line-height: normal;
@@ -3050,4 +3054,13 @@ html, body {
 	  display: flex;
 	  MARGIN-BOTTOM: 55PX;
 
+  }
+  .mainContent{
+	display: flex;
+    align-items: center;
+  }
+  .btn-outline{
+		background: white;
+		color: #d00000;
+		border: 1px solid #d00000;
   }
