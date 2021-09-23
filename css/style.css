@@ -3058,6 +3058,8 @@ html, body {
   .mainContent{
 	display: flex;
     align-items: center;
+	justify-content: center;
+
   }
   .btn-outline{
 		background: white;
